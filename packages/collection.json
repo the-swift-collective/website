@@ -1,0 +1,157 @@
+{
+  "formatVersion": "1.0",
+  "generatedAt": "2024-10-31T11:49:25Z",
+  "generatedBy": {
+    "name": "the swift collective"
+  },
+  "keywords": [
+    "cross-platform",
+    "ecosystem",
+    "interop",
+    "oss",
+    "cxx",
+    "swift"
+  ],
+  "name": "Cross Platform Collection",
+  "overview": "A growing collection of cross platform swift packages.",
+  "packages": [
+    {
+      "keywords": [
+        "cross-platform",
+        "ecosystem",
+        "interop",
+        "oss",
+        "cxx",
+        "swift"
+      ],
+      "license": {
+        "name": "Zlib",
+        "url": "https://raw.githubusercontent.com/the-swift-collective/zlib/main/LICENSE"
+      },
+      "readmeURL": "https://raw.githubusercontent.com/the-swift-collective/zlib/main/README.md",
+      "summary": "spiffy yet delicately unobtrusive compression for swift.",
+      "url": "https://github.com/the-swift-collective/zlib.git",
+      "versions": [
+        {
+          "defaultToolsVersion": "5.5",
+          "manifests": {
+            "5.5": {
+              "packageName": "zlib",
+              "products": [
+                {
+                  "name": "ZLib",
+                  "targets": ["ZLib"],
+                  "type": { "library": ["automatic"] }
+                },
+                {
+                  "name": "ZLibC",
+                  "targets": ["ZLibC"],
+                  "type": { "library": ["automatic"] }
+                }
+              ],
+              "targets": [
+                { "moduleName": "ZLib", "name": "ZLib" },
+                { "moduleName": "ZLibC", "name": "ZLibC" }
+              ],
+              "toolsVersion": "5.5"
+            }
+          },
+          "version": "v1.3.1"
+        }
+      ]
+    },
+    {
+      "keywords": [
+        "cross-platform",
+        "ecosystem",
+        "interop",
+        "oss",
+        "cxx",
+        "swift"
+      ],
+      "license": {
+        "name": "libpng-2.0",
+        "url": "https://raw.githubusercontent.com/the-swift-collective/libpng/main/LICENSE"
+      },
+      "readmeURL": "https://raw.githubusercontent.com/the-swift-collective/libpng/main/README.md",
+      "summary": "portable network graphics support for swift.",
+      "url": "https://github.com/the-swift-collective/libpng.git",
+      "versions": [
+        {
+          "defaultToolsVersion": "5.5",
+          "manifests": {
+            "5.5": {
+              "packageName": "libpng",
+              "products": [
+                {
+                  "name": "LibPNG",
+                  "targets": ["LibPNG"],
+                  "type": { "library": ["automatic"] }
+                },
+                {
+                  "name": "png",
+                  "targets": ["pnglibconf", "png"],
+                  "type": { "library": ["automatic"] }
+                }
+              ],
+              "targets": [
+                { "moduleName": "LibPNG", "name": "LibPNG" },
+                { "moduleName": "png", "name": "png" },
+                { "moduleName": "pnglibconf", "name": "pnglibconf" }
+              ],
+              "toolsVersion": "5.5"
+            }
+          },
+          "version": "v1.6.45"
+        }
+      ]
+    },
+    {
+      "keywords": [
+        "cross-platform",
+        "ecosystem",
+        "interop",
+        "oss",
+        "cxx",
+        "swift"
+      ],
+      "license": {
+        "name": "BSD-3-Clause",
+        "url": "https://raw.githubusercontent.com/the-swift-collective/libwebp/main/LICENSE"
+      },
+      "readmeURL": "https://raw.githubusercontent.com/the-swift-collective/libwebp/main/README.md",
+      "summary": "webp codec support for swift.",
+      "url": "https://github.com/the-swift-collective/libwebp.git",
+      "versions": [
+        {
+          "defaultToolsVersion": "5.5",
+          "manifests": {
+            "5.5": {
+              "packageName": "libwebp",
+              "products": [
+                {
+                  "name": "WebP",
+                  "targets": ["WebP"],
+                  "type": { "library": ["automatic"] }
+                },
+                {
+                  "name": "libwebp",
+                  "targets": ["libwebp", "sharpyuv", "imageioutil"],
+                  "type": { "library": ["automatic"] }
+                }
+              ],
+              "targets": [
+                { "moduleName": "WebP", "name": "WebP" },
+                { "moduleName": "imageioutil", "name": "imageioutil" },
+                { "moduleName": "libwebp", "name": "libwebp" },
+                { "moduleName": "sharpyuv", "name": "sharpyuv" }
+              ],
+              "toolsVersion": "5.5"
+            }
+          },
+          "version": "v1.4.0"
+        }
+      ]
+    }
+  ]
+}
